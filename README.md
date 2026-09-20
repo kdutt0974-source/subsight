@@ -11,6 +11,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://postgresql.org)
 [![License](https://img.shields.io/badge/License-MIT-green.style=for-the-badge)](#license)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-subsight--app.vercel.app-000?style=for-the-badge&logo=vercel&logoColor=white)](https://subsight-app.vercel.app)
 
 <br/>
 
@@ -169,10 +170,16 @@ make dev
 
 ## 🌐 Production Deployment (100% Free Tier)
 
+| Service | Live URL |
+|---------|----------|
+| **Frontend** | [https://subsight-app.vercel.app](https://subsight-app.vercel.app) |
+| **Backend API** | [https://subsight-api-v2.onrender.com](https://subsight-api-v2.onrender.com) |
+| **API Docs** | [https://subsight-api-v2.onrender.com/docs](https://subsight-api-v2.onrender.com/docs) |
+
 Full instructions, environment configurations, and disaster recovery procedures are documented in [`DEPLOYMENT.md`](./DEPLOYMENT.md).
 
 - **Backend & Database:** Render Web Service (Python 3.11) + Render PostgreSQL (`render.yaml`)
-- **Frontend:** Vercel (Next.js 16 App Router)
+- **Frontend:** Vercel (Next.js 16 App Router) at `subsight-app.vercel.app`
 - **Keep-Alive:** cron-job.org HTTP heartbeat (pings `/api/health` every 10 min)
 - **Object Storage:** Cloudflare R2 (with automatic local storage fallback)
 
