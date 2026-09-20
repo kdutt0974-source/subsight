@@ -4,6 +4,16 @@ This document details the production architecture, step-by-step deployment proce
 
 ---
 
+## ⚡ Live Production Endpoints
+
+- **Live Backend API (Render):** [https://subsight-api-v2.onrender.com](https://subsight-api-v2.onrender.com)
+- **Live Swagger UI (OpenAPI Docs):** [https://subsight-api-v2.onrender.com/docs](https://subsight-api-v2.onrender.com/docs)
+- **Live Health Check:** [https://subsight-api-v2.onrender.com/api/health](https://subsight-api-v2.onrender.com/api/health)
+- **GitHub Repository:** [https://github.com/kdutt0974-source/subsight](https://github.com/kdutt0974-source/subsight)
+- **1-Click Vercel Frontend Deploy:** [Deploy on Vercel](https://vercel.com/new/clone?repository-url=https://github.com/kdutt0974-source/subsight&root-directory=frontend&env=NEXT_PUBLIC_API_BASE_URL&project-name=subsight)
+
+---
+
 ## 1. Production Architecture Overview
 
 ```
